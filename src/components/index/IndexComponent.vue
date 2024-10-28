@@ -1,9 +1,10 @@
 <template>
   <div class="landing-page">
     <header class="hero-section">
-      <h1>Sistema Integral de Monitoreo en Tiempo Real</h1>
-      <p>
+      <h1>Panorama</h1>
+      <p><b>
         Optimiza la gestión de casos de servicio al cliente con un sistema eficiente de monitoreo, seguimiento, identificación y control de estados.
+      </b>
       </p>
       
     </header>

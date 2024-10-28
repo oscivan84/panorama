@@ -7,18 +7,32 @@
   <script>
   export default {
     props: {
-      progress: Number,
-      progressColor: String
+      progress: {
+        type: Number,
+        required: true,
+        default: 0
+      },
+      progressColor: {
+        type: String,
+        required: true,
+        default: '#4caf50' // Color verde por defecto
+      }
     }
   };
   </script>
   
   <style scoped>
   .progress-bar-wrapper {
-    /* estilos aquí */
+    width: 100%;
+    height: 20px; /* Altura de la barra */
+    background-color: #e0e0e0; /* Color de fondo de la barra */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Evita que el progreso sobresalga */
   }
+  
   .progress-bar {
-    /* estilos aquí */
+    height: 100%;
+    transition: width 0.3s ease; /* Transición suave para el progreso */
   }
   </style>
   

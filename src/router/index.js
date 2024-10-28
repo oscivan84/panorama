@@ -4,7 +4,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 // Importamos los componentes
 import IndexComponent from '../components/index/IndexComponent.vue';
 import AyudaComponent from '../components/ayuda/AyudaComponent.vue';
-import OperadorComponent from '@/components/operador/OperadorComponent 2.vue';
+import OperadorComponent from '@/components/operador/IncidentForm.vue';
 import AdminDataComponent from '@/components/admindata/AdminDataComponent.vue';
 import Layout from '../components/layout/LayoutComponent.vue';
 import Login from '../components/login/UserLogin.vue';
